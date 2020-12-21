@@ -1,0 +1,73 @@
+version: 1.0
+profile:
+  name: qodana.recommended
+exclude:
+  - name: PhpVariableNamingConventionInspection
+  - name: PhpPropertyNamingConventionInspection
+  - name: PhpClassNamingConventionInspection
+  - name: PhpMethodNamingConventionInspection
+  - name: PhpFunctionNamingConventionInspection
+  - name: PhpConstantNamingConventionInspection
+  - name: GroovyStaticVariableNamingConvention
+  - name: NewGroovyClassNamingConvention
+  - name: GroovyParameterNamingConvention
+  - name: GroovyInstanceMethodNamingConvention
+  - name: GroovyConstantNamingConvention
+  - name: GroovyStaticMethodNamingConvention
+  - name: GroovyLocalVariableNamingConvention
+  - name: GroovyInstanceVariableNamingConvention
+  - name: PhpStaticAsDynamicMethodCallInspection
+  - name: PhpMissingVisibilityInspection
+  - name: PhpVarUsageInspection
+  - name: PhpTraitsUseListInspection
+  - name: PhpModifierOrderInspection
+  - name: PhpCompoundNamespaceDepthInspection
+  - name: PhpLongTypeFormInspection
+  - name: PhpNewClassMissingParameterListInspection
+  - name: PhpSeparateElseIfInspection
+  - name: LocalVariableName
+  - name: TestFunctionName
+  - name: FunctionName
+  - name: PrivatePropertyName
+  - name: ConstPropertyName
+  - name: PackageName
+  - name: ObjectPropertyName
+  - name: EnumEntryName
+  - name: PropertyName
+  - name: ClassName
+  - name: PhpMissingDocCommentInspection
+  - name: MethodNameSameAsParentName
+  - name: QuestionableName
+  - name: NonBooleanMethodNameMayNotStartWithQuestion
+  - name: ClassNamePrefixedWithPackageName
+  - name: NonExceptionNameEndsWithException
+  - name: NewClassNamingConvention
+  - name: PackageNamingConvention
+  - name: OverloadedVarargsMethod
+  - name: StandardVariableNames
+  - name: ParameterNamingConvention
+  - name: ConfusingMainMethod
+  - name: LambdaUnfriendlyMethodOverload
+  - name: LambdaParameterNamingConvention
+  - name: LocalVariableNamingConvention
+  - name: ParameterNameDiffersFromOverriddenParameter
+  - name: ClassNameSameAsAncestorName
+  - name: OverloadedMethodsWithSameNumberOfParameters
+  - name: ExceptionNameDoesntEndWithException
+  - name: FieldNamingConvention
+  - name: UpperCaseFieldNameNotConstant
+  - name: JavaModuleNaming
+  - name: NewMethodNamingConvention
+  - name: MisspelledMethodName
+  - name: MethodNameSameAsClassName
+  - name: DollarSignInName
+  - name: BooleanMethodNameMustStartWithQuestion
+  - name: PhpFullyQualifiedNameUsageInspection
+  - name: All
+    paths:
+      - project/tests/_files
+      - project/build/templates
+      - project/src/Framework/MockObject/Generator
+      - project/vendor
+      - project/build
+      - project/tests
