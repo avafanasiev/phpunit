@@ -65,8 +65,7 @@ exclude:
   - name: PhpFullyQualifiedNameUsageInspection
   - name: All
     paths:
-      build/templates
-      src/Framework/MockObject/Generator
-      vendor
-      build
-      tests
+      - src/Framework/MockObject/Generator
+      - vendor
+      - build
+      - tests
